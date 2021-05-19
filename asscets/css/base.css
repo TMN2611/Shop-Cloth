@@ -1,0 +1,32 @@
+
+:root {
+
+    --text-color-- : #333333;
+    --text-primary-nav-color--:#8c8c8c;
+    --text-secondary-nav-color--:#222222;
+    --wrap-background-color--:#ffff;
+    --app-content-background-color--:#f2f2f2;
+    --header-service-background--:#000;
+    --border-color--:rgba(32, 30, 30, 0.15);
+    --start-gold-color--:#ffce3d;
+    
+
+    --header-service-height--:70px;
+    --height-banner:542px;
+    --produce-img-height-- :167px;
+    --produce-img3-height-- :131px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+   
+    font-family: "roboto",sans-serif;
+    font-size: 62.5%;
+    line-height: 16px;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}

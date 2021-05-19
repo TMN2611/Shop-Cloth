@@ -1,0 +1,122 @@
+/* tablet */
+@media (min-width:720px) and (max-width:1023px) {
+        .hiddenOnTablet {
+            display: none
+        }
+        .nav__category-item {
+            margin-left: 5px;
+            text-align: center;
+        }
+        .nav__category-link {
+            font-size: 1.1rem;
+        }
+        .footer-bottom-area--list {
+            margin-top: 30px;
+            text-align: center;
+        }
+      
+      
+        
+}
+/* mobile */
+@media (max-width:719px) {
+    .hiddenOnMobile {
+        display: none
+    }
+    .nav__category-item {
+        margin-left: 5px;
+        text-align: center;
+    }
+    .nav__category-link {
+        font-size: 1.1rem;
+    }
+    .nav__category-list {
+        display: none;
+    }
+    .tab-bottom__item {
+        padding: 0 10px;
+    }
+    .tab-bottom__link {
+        font-size: 1.3rem;
+    }
+    .header__service-item-link p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .header__service-item__description {
+        font-size: 1rem;
+    }
+    .footer-bottom__header , .footer-bottom_item {
+        text-align: center;
+    }
+    .footer-bottom-area--list {
+        margin-top: 50px;
+    }
+    .footer-bottom-area--list:last-child {
+        margin-bottom: 20px;
+    }
+    .footer-bottom__social-media__text {
+        display: none;
+    }
+    .header__nav-item {
+        margin-right: 3px;
+    }
+    .nav-middle__search-area {
+        width: 160px;
+    }
+    i.header__service-items-icon  {
+        display: none;
+    }
+    .header__nav-right {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .footer-bottom__social-media__link {
+        font-size: 2rem;
+    }
+    .header__nav-left {
+        display: none;
+    }
+    .header__service-list {
+        display: none
+    }
+    .header-content {
+        padding-top:10px
+    }
+    .nav-middle  {
+        margin-top:15px;
+    }
+}
+/* mobile and tablet */
+@media (max-width:1023px) {
+    .hiddenOnTabletMobile {
+        display: none
+    }
+    .footer-top__subscribe-area{
+        width: 300px
+    }
+    .header__service-items-icon{
+        position: relative;
+        top: 5px;
+        
+    }
+    .banner__item-right1 ,
+    .banner__item-right2 {
+        display: none
+    }
+}
+
+/* pc */
+@media(min-width:1024px) {
+    .middle-banner__left {
+        padding-right: 0;
+    }
+    .middle-banner__right {
+        padding-left: 0;
+    }
+}
+@media(min-width:1024px) and (max-width:1240px) {
+    .nav__category-link {
+        font-size:1.3rem
+    }
+}
